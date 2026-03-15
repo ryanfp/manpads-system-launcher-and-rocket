@@ -1,60 +1,36 @@
-\# MANPADS Rocket \& Launcher Prototype
+# MANPADS Rocket & Launcher Prototype
 
+[![30 Second Overview](https://img.youtube.com/vi/zFn__6_LdTc/maxresdefault.jpg)](https://www.youtube.com/shorts/zFn__6_LdTc)
 
+[![Full System Overview (5 min)](https://img.youtube.com/vi/DDO2EvXyncE/maxresdefault.jpg)](https://www.youtube.com/watch?v=DDO2EvXyncE&t=59s)
 
-\[!\[30 Second Overview](https://img.youtube.com/vi/zFn\_\_6\_LdTc/maxresdefault.jpg)](https://www.youtube.com/shorts/zFn\_\_6\_LdTc)
-
-
-
-\[!\[Full System Overview (5 min)](https://img.youtube.com/vi/DDO2EvXyncE/maxresdefault.jpg)](https://www.youtube.com/watch?v=DDO2EvXyncE\&t=54s)
-
-
-
-\## Full Development Media and Documentation
-
-https://drive.google.com/drive/folders/17zpks6\_R59H0iXJaGkTrtp1SzIFFAQtY?usp=drive\_link
-
-
+## Full Development Media and Documentation
+https://drive.google.com/drive/folders/17zpks6_R59H0iXJaGkTrtp1SzIFFAQtY?usp=drive_link
 
 The Google Drive archive contains additional development media and documentation, including:
 
+- Mechanical design and assembly
+- System electronics and firmware testing
+- Launch testing and rocket motor development
+- System flow diagrams
+- Rocket specifications
+- Bill of materials and cost breakdown
 
+## Project Overview
 
-\- mechanical design and assembly
+This project is a proof-of-concept prototype of a low-cost rocket launcher and guided rocket system built using consumer electronics and 3D-printed components.
 
-\- system electronics and firmware testing
+The rocket uses folding fins and canard stabilization controlled by an onboard ESP32 flight computer and MPU6050 inertial measurement unit. The launcher integrates sensors such as GPS, compass, and barometric modules to determine orientation and provide telemetry.
 
-\- launch tests and rocket motor development
+The system was designed in Fusion 360, simulated using OpenRocket, and developed through iterative mechanical design, electronics integration, and launch testing.
 
-\- system flow diagram
+The total hardware cost of the prototype is approximately **$96**.
 
-\- rocket specifications
-
-\- bill of materials and cost breakdown
-
-
-
-\## Project Overview
-
-
-
-This project is a proof-of-concept prototype of a low-cost rocket launcher and guided rocket system built using consumer electronics and 3D-printed components. The rocket uses folding fins and canard stabilization controlled by an onboard ESP32 flight computer and MPU6050 inertial measurement unit, while the launcher integrates sensors such as GPS, compass, and barometric modules for orientation and telemetry. The system was designed in Fusion 360, simulated using OpenRocket, and developed through iterative mechanical, electronics, and launch testing. The total hardware cost of the prototype is approximately \*\*$96\*\*.
-
-
-
-\## Repository Contents
-
-
+## Repository Contents
 
 This repository contains the core engineering components of the project:
 
-
-
-\- mechanical CAD files for the rocket and launcher
-
-\- firmware source code for the rocket flight controller and launcher system
-
-\- OpenRocket simulation files used for aerodynamic stability analysis
-
-\- supporting project documentation
-
+- Mechanical CAD files for the rocket and launcher
+- Firmware source code for the rocket flight controller and launcher system
+- OpenRocket simulation files used for aerodynamic stability analysis
+- Supporting project documentation
